@@ -1,9 +1,9 @@
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from 'path/to/pages/Home';
-import About from 'path/to/pages/About';
-import Products from 'path/to/pages/Products';
-import NotFound from 'path/to/pages/NotFound';
-import ProductDetails from 'path/to/pages/ProductDetails';
+import { Home } from './path/to/pages/Home/Home';
+import { About } from './path/to/pages/About/About';
+import { Products } from './path/to/pages/Products/Products';
+import { NotFound } from './path/to/pages/NotFound/NotFound';
+import { ProductDetails } from './path/to/pages/ProductDetails/ProductDetails';
 
 export const App = () => {
   return (
